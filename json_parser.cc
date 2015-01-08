@@ -7,6 +7,7 @@
 #include <fstream>
 #include <iostream>
 #include <cctype>
+#include <algorithm>
 
 namespace knowson {
 
