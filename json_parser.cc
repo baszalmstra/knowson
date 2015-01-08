@@ -7,6 +7,7 @@
 #include <fstream>
 #include <iostream>
 #include <cctype>
+#include <algorithm>
 
 namespace knowson {
 
@@ -754,6 +755,8 @@ namespace knowson {
         context.next();
         return true;
       }
+      default:
+        return false;
       }
 
       return false;
