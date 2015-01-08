@@ -6,8 +6,7 @@
 #include <vector>
 #include <memory>
 
-namespace abbeycore {
-namespace data {
+namespace knowson {
 
 	/// Describes the type of a json value
 	enum class JsonType
@@ -175,5 +174,4 @@ namespace data {
 		/// Default constructor
 		JsonNull() : JsonValue(JsonType::kNull) {}
 	};
-}
 }

@@ -6,8 +6,7 @@
 #include <map>
 #include <vector>
 
-namespace abbeycore {
-namespace data {
+namespace knowson {
 
   enum class ValueType
   {
@@ -78,5 +77,4 @@ namespace data {
   private:
     std::vector<std::unique_ptr<ValueDefinition>> elements_;
   };
-}
 }

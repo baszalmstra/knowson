@@ -4,8 +4,7 @@
 
 #include <cstdint>
 
-namespace abbeycore {
-namespace data {
+namespace knowson {
 
 	enum class JsonDocumentType
 	{
@@ -47,5 +46,4 @@ namespace data {
 
 	/// Parses a json document
 	bool parse_json(IJsonParserSource *source, std::unique_ptr<JsonValue>& document, IJsonParserLog *log = nullptr, JsonDocumentType documentType = JsonDocumentType::kUnknown);
-}
 }

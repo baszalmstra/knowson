@@ -1,7 +1,6 @@
 #include "json.h"
 
-namespace abbeycore {
-namespace data {
+namespace knowson {
 
 	//-----------------------------------------------------------------------------------------------
 	bool JsonObject::try_get(const std::string &key, JsonValue const *&value) const
@@ -19,5 +18,4 @@ namespace data {
   {
     members_.insert(std::make_pair(key, std::move(value)));
   }
-}
 }

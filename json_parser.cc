@@ -8,8 +8,7 @@
 #include <iostream>
 #include <cctype>
 
-namespace abbeycore {
-namespace data {
+namespace knowson {
 
 	namespace
 	{
@@ -769,12 +768,12 @@ namespace data {
 		return parse_document_root(context, document);
 	}
 }
-}
+
 
 //-----------------------------------------------------------------------------------------------
 int main()
 {
-	using namespace abbeycore::data;
+	using namespace knowson;
 
   std::ifstream file("test.json");
   if (!file.is_open())

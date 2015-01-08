@@ -1,7 +1,6 @@
 #include "definition.h"
 
-namespace abbeycore {
-namespace data
+namespace knowson
 {
 	//--------------------------------------------------------------------------------------------------------------------
 	bool ObjectDefinition::has(const std::string &name) const
@@ -48,5 +47,4 @@ namespace data
   {
     elements_.emplace_back(std::move(value));
   }
-}
 }
